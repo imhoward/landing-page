@@ -1,0 +1,33 @@
+.background.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+  }
+
+  .header {
+    background: #1F2937;
+    height: 100px;
+  }
+  
+  .top {
+    background: #1F2937;
+    height: 350px;
+  }
+
+  .middle-top {
+    height: 350px;
+  }
+
+  .middle-bottom {
+    background: #E5E7EB;
+    height: 300px;
+  }
+
+  .bottom {
+    height: 300px;
+  }
+
+  .footer {
+    background: #1F2937;
+    height: 100px;
+  }
