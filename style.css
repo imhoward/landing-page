@@ -31,7 +31,7 @@ html {
 
   .bottom {
     background: white;
-    height: 300px;
+    height: 400px;
   }
 
   .footer {
@@ -208,4 +208,50 @@ html {
     font-size: 24px;
     margin-top: -32px;
     margin-left: 450px;
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .bottom-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    width: 1000px;
+    border-radius: 10px;
+    background-color: #3882F6;
+  }
+
+  .bottom-box1 h2 {
+    color: #F9FAF8;
+  }
+
+  .bottom-box1 h4 {
+    color: #E5E7EB;
+  }
+
+  .bottom-box2 button {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 10px;
+    height: 35px;
+    width: 125px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
   }
