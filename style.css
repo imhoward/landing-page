@@ -20,7 +20,8 @@ html {
   }
 
   .middle-top {
-    height: 350px;
+    background: white;
+    height: 400px;
   }
 
   .middle-bottom {
@@ -29,6 +30,7 @@ html {
   }
 
   .bottom {
+    background: white;
     height: 300px;
   }
 
@@ -93,7 +95,7 @@ html {
   .top-image {
     background-color: darkgrey;
     height: 220px;
-    width: 485px;
+    width: 495px;
     text-align: center;
     line-height: 200px;
     margin: 25px;
@@ -110,4 +112,80 @@ html {
     font-size: 18px;
     font-weight: bold;
     color: #E5E7EB;
+  }
+
+  .middle-top {
+    display: flex;
+    justify-content: center;
+  }
+
+  .middle-top-all h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 175px;
+  }
+
+  .middle-top-boxes {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50px 50px auto;
+    justify-content: center;
+    column-gap: 50px;
+    margin-top: 50px;
+  }
+
+  .box1 {
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+  }
+
+  .box1 p {
+    margin-top: 165px;
+  }
+
+  .box2 {
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+  }
+
+  .box2 p {
+    margin-top: 165px;
+  }
+
+  .box3 {
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+  }
+
+  .box3 p {
+    margin-top: 165px;
+  }
+
+  .box4 {
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+  }
+
+  .box4 p {
+    margin-top: 165px;
   }
